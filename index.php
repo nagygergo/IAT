@@ -34,7 +34,7 @@
             </ol>
             <h5>A kitöltés</h5>
             <ul>
-                <li>kb. 10-15 percet vesz igénybe</li>
+                <li>kb. 15-20 percet vesz igénybe</li>
                 <li>anonim és utólag be nem azonosítható.</li>
                 <li>önkéntes alapon zajlik, bármikor meg lehet szakítani (az addigi adatok automatikusan törlődnek)</li>
                 <li>során kellemetlen ingerek fordulhatnak elő
