@@ -45,14 +45,7 @@
                         </div>
 
                         <div class="input-field col m2">
-                            <select name="kor">
-                                <option value="" disabled selected>Kor</option>
-                                <?php
-                                for($i=18; $i<100;$i++){
-                                    echo "<option value='".$i."'>".$i."</option>";
-                                }
-                                ?>
-                            </select>
+                            <input placeholder="Kor" type="number" name="kor">
                         </div>
                         <div class="col m4 s8 input-field">
                             <select name="lakhely">
