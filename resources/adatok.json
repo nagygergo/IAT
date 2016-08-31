@@ -1,0 +1,26 @@
+{
+  "kor" : null,
+  "nem" : null,
+  "lakhely" : null,
+  "telepules" : null,
+  "csaladiallapot" : null,
+  "gyerek" : null,
+  "iskolaivegzettseg": null,
+  "dolgozik_foglalkozas": null,
+  "dolgozik_munkaterulet": null,
+  "dolgozik_statusz": null,
+  "tudfokozat": null,
+  "hallgato_szaktipus": null,
+  "hallgato_varos":null,
+  "hallgato_szak": null,
+  "hallgato_kepzes": null,
+  "hallgato_evfolyam":null,
+  "diak_iskola":null,
+  "diak_szuloiskolaivegzettseg":null,
+  "egeszsegugyi_vegzettseg":null,
+  "orvos_vegzettseg":null,
+  "orvos_beosztas":null,
+  "orvos_szakvizsga":null,
+  "egeszsegugyi_munkakor":null
+
+}

@@ -1,0 +1,60 @@
+{
+    "showResult": true,
+    "catA": {
+        "label": "Sérült",
+        "datalabel": "S",
+        "itemtype": "img",
+        "items": [
+			"1kesz.jpg",
+			"2kesz.jpg",
+			"3kesz.jpg",
+            "4kesz.jpg",
+			"5kesz.jpg",
+			"6kesz.jpg"
+		]
+    },
+    "catB": {
+        "label": "Egészséges",
+        "datalabel": "E",
+        "itemtype": "img",
+        "items": [
+			"1.jpg",
+			"2.jpg",
+			"3.jpg",
+            "4.jpg",
+			"5.jpg",
+			"6.jpg"
+		]
+    },
+    "cat1": {
+        "label": "Negatív",
+        "datalabel": "N",
+        "itemtype": "txt",
+        "items": [
+			"Rettenetes",
+			"Szörnyű",
+			"Undok",
+			"Gonosz",
+			"Borzasztó",
+            "Hiba"
+            ]
+
+
+    },
+    "cat2": {
+        "label": "Pozitív",
+        "datalabel": "P",
+        "itemtype": "txt",
+        "items": [
+			"Élvezet",
+			"Szerelem",
+			"Béke",
+			"Csodálatos",
+            "Ragyogó",
+            "Boldog"
+        ]
+        
+
+    }
+
+}

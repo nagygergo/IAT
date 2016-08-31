@@ -1,0 +1,107 @@
+    <html>
+    <head>
+        <meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
+        <title>
+            IAT teszt</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
+
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+        <script type="text/javascript">
+            <?php echo "var lang='" .$lang."';"?>
+        </script>
+        <script type="text/javascript" src="services/IAT.js"></script>
+
+
+
+
+        <script type="text/javascript">
+            initialize();
+            document.onkeypress = keyHandler;
+        </script>
+        <style>
+            body {
+                background: #fafafa;
+                overflow: hidden;
+            }
+            
+            .IATitem {
+                display: none;
+            }
+
+            
+            #right_cat {
+                padding: 15px;
+            }
+            
+            #left_cat {
+                padding: 15px;
+            }
+            .qimg {
+                width: auto;
+                height: 300px;
+                margin: 0 auto;
+
+            }
+            #fittoscreen {
+                min-height: 400px;
+
+            }
+            
+            @media screen and (min-with: 600px) {
+                .qimg {
+                    width: 300px;
+                    height: auto;
+                    
+                }
+            }
+            @media screen and (min-with: 922px){
+                .qimg {
+                    width: 400px;
+                    height: auto;
+                    vertical-align: middle;
+                }
+            }
+            
+            #word {
+                padding-top: 120px;
+                padding-bottom: 120px;
+            }
+            
+        </style>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="row">
+                <div id="experiment_frame" class="col s12 m10 offset-m1 l8 offset-l2 ">
+                    <div id="header" class="row">
+                        <div id="leftcat_wrapper" class="col s5 center-align card-panel white z-depth-0">
+                            <h5>
+                                <div id="left_cat"></div>
+                                </h5>
+                        </div>
+                        <div id="rightcat_wrapper" class="col s5 offset-s2 center-align card-panel white z-depth-0">
+                            <h5>
+                            <div id="right_cat">
+                                </div>
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="card-panel white z-depth-0">
+                        <div id="fittoscreen" class="row">
+                            <div id="picture_frame" class="col s12  m12 l12 valign-wrapper center-align">
+                                <div id="exp_instruct" class="">
+                                </div>
+                            </div>
+                            <h5>
+                            <div id="word" class="IATitem center-align valign-wrapper col s12 m10 offset-m1 l8 offset-l2 card-panel white z-depth-0" style="display: none"></div></h5>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </body>
