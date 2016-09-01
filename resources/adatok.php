@@ -42,7 +42,6 @@
                                 <option value="ferfi">Férfi</option>
                                 <option value="no">Nő</option>
                             </select>
-                            <label for="nem">Nem</label>
                         </div>
 
                         <div class="input-field col m2">
@@ -59,7 +58,6 @@
                                 <option value="falu">falu</option>
                                 <option value="tanya">tanya</option>
                             </select>
-                            <label for="lakhely">Lakóhely</label>
                         </div>
                         <div class="col m4 s8 input-field">
                             <input placeholder="Település (állandó lakcím alapján)" type="text" name="telepules">
@@ -74,8 +72,6 @@
                                 <option value="egyedulallo">Egyedülálló vagyok</option>
                                 <option value="ozvegy">Özvegy vagyok</option>
                             </select>
-                            <label for="csaladiallapot">Családi állapot</label>
-
                         </div>
                          <div class="col m6 s8 input-field">
                             <select name="gyerek">
@@ -88,7 +84,6 @@
                                 <option value="6">6 </option>
                                 <option value="7/több">7 vagy több </option>
                             </select>
-                            <label for="gyerek">Gyermekeim száma</label>
                         </div>
 
 
@@ -104,7 +99,6 @@
                                 <option value="egyetem">Egyetemi diploma</option>
                                 <option value="posztgrad">Posztgraduális képesítéssel rendelkezem</option>
                             </select>
-                            <label for="iskolaivegzettseg">Legmagasabb iskolai végzettség</label>
                         </div>
                     </div>
                 </div>
@@ -114,8 +108,6 @@
             <div class="card-content">
                 <div class="card-title">Fogalkozási adatok</div>
                 <div class="row">
-
-
                     <div class="input-field col m6 s8">
                         <select name="dolgozik_statusz" id="dolgozik_statusz">
                             <option value="" disabled selected>Státusz</option>
@@ -127,7 +119,6 @@
                             <option value="munkanelkuli">Munkanélküli</option>
                             <option value="nyugdijas">Nyugdíjas</option>
                         </select>
-                        <label for="dolgozik_statusz">Státusz</label>
                     </div>
                     <div class="input-field col m6 s8">
                         <input tpye="text" name="dolgozik_foglalkozas" placeholder="Foglalkozás, (szakmai) képzettség">
@@ -159,7 +150,6 @@
                             <option value="allami">Állami adminisztráció / Igazgatásszervezés</option>
                             <option value="epitoipar">Építőipar / Ingatlanforgalmazás</option>
                         </select>
-                        <label for="dolgozik_munkaterulet">Munkaterület</label>
                     </div>
 
                     <div class="input-field col m6 s8" id="tudfokozat">
@@ -171,7 +161,6 @@
                             <option value="habilitacio">Habilitáció</option>
                             <option value="nagydoktor">Nagydoktor</option>
                         </select>
-                        <label for="tudfokozat">Tudományos fokozat</label>
                     </div>
                 </div>
                 <div class="col 12 center-align" id="nyugdijasszoveg" style="display: none">A fenti cellákat a korábbi foglalkozásának megfelelően töltse ki.</div>
@@ -197,7 +186,6 @@
                             <option value="termeszettud">Természettudományi</option>
                             <option value="egyeb">Egyéb</option>
                         </select>
-                        <label for="hallgato_szaktipus">Tudományterület</label>
                     </div>
 
                     <div class="input-field col m6 s8">
@@ -215,7 +203,6 @@
                             <option value="veszprem">Veszprém</option>
                             <option value="egyeb">Egyéb </option>
                         </select>
-                        <label for="hallgato_szaktipus">Város</label>
                     </div>
                     <div class="input-field col m6 s8">
                         <input placeholder="Szak" type="text" name="hallgato_szak">
@@ -229,7 +216,6 @@
                             <option value="osztatlan">Osztatlan</option>
                             <option value="phd">Phd</option>
                         </select>
-                        <label for="hallgato_kepzes">Képzés</label>
                         </div>
                         <div class="input-field col m6 s8">
                             <select name="hallgato_evfolyam">
@@ -241,7 +227,6 @@
                                 <option value="5">5</option>
                                 <option value="6">6</option>
                             </select>
-                            <label for="hallgato_evfolyam">Évfolyam</label>
                         </div>
                     </div>
                 </div>
@@ -261,7 +246,6 @@
                             <option value="szakkozep">Szakközépiskola</option>
                             <option value="szakiskola">Szakiskola</option>
                         </select>
-                        <label for="diak_iskola">Iskolád típusa</label>
                     </div>
                     <div class="input-field col m6 s8">
                         <select name="diak_szuloiskolaivegzettseg">
@@ -272,7 +256,6 @@
                             <option value="egyetem">Egyetemi diploma</option>
                             <option value="posztgrad">Posztgraduális képesítés</option>
                         </select>
-                        <label for="diak_szuloiskolaivegzettseg">Szüleid legmagasabb iskolai végzettsége</label>
                     </div>
                 </div>
             </div>
@@ -361,6 +344,7 @@
 
                     <div class="col m4 s8 input-field">
                         <input placeholder="Szakvizsga/szakvizsgák" type="text" name="orvos_szakvizsga">
+                        <label for="orvos_szakvizsga">Szakvizsga/szakvizsgák</label>
                     </div>
                 </div>
             </div>
@@ -412,12 +396,9 @@
                             <option value="egyeb">Egyéb</option>
                         </select>
                     </div>
-
-
                 </div>
             </div>
         </div>
-
 
         <div class="row" style="margin-bottom: 30px;">
             <div class="col m2 offset-m5">
