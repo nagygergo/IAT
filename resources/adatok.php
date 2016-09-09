@@ -123,8 +123,8 @@
                         </select>
                     </div>
                     <div class="input-field col m6 s8">
-                        <input tpye="text" name="dolgozik_foglalkozas" placeholder="Foglalkozás">
-                        <label for="dolgozik_foglalkozas">Írja a mezőbe foglalkozását!</label>
+                        <input placeholder="Foglalkozás" type="text" name="dolgozik_foglalkozas">
+                            <label for="dolgozik_foglalkozas"> Írja a mezőbe foglalkozását!</label>
                     </div>
                     <div class="input-field col m6 s8">
                         <select name="dolgozik_munkaterulet" id="munkaterulet">
