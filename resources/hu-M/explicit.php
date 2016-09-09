@@ -77,7 +77,7 @@ function RadioRange9($name,$max,$col=8){
                     <li> Próbálja mindíg a saját tapasztalataihoz, véleményéhez legközelebb álló lehetőséget választani! </li>
                      <li>Amennyiben az adatfelvételi lappal vagy a teszttel kapcsolatban kiegészítése, kérdése lenne, kérjük írja be a lap alján található "Megjegyzések" mezőbe!</li>
                      <li><b> A válaszokon ne gondolkodjon sokáig! </b>Az első, automatikus válaszaira vagyunk kíváncsiak. </li>
-                   
+
                 </ol>
                 </p>
             </div>
@@ -211,125 +211,29 @@ function RadioRange9($name,$max,$col=8){
             </div>
         </div>
 
-        
+        <input type="hidden" name="elsobenyomas_no_orr" id="elsobenyomas_no_orr" value="none">
+        <input type="hidden" name="elsobenyomas_no_arccsont" id="elsobenyomas_no_arccsont" value="none">
+        <input type="hidden" name="elsobenyomas_no_homlok" id="elsobenyomas_no_homlok" value="none">
+        <input type="hidden" name="elsobenyomas_no_egeszarc" id="elsobenyomas_no_egeszarc" value="none">
+        <input type="hidden" name="elsobenyomas_no_szemek" id="elsobenyomas_no_szemek" value="none">
+        <input type="hidden" name="elsobenyomas_no_fulek" id="elsobenyomas_no_fulek" value="none">
+        <input type="hidden" name="elsobenyomas_no_arcbor" id="elsobenyomas_no_arcbor" value="none">
+        <input type="hidden" name="elsobenyomas_no_szaj" id="elsobenyomas_no_szaj" value="none">
+        <input type="hidden" name="elsobenyomas_no_haj" id="elsobenyomas_no_haj" value="none">
+        <input type="hidden" name="elsobenyomas_no_all" id="elsobenyomas_no_all" value="none">
+        <input type="hidden" name="elsobenyomas_no_fogak" id="elsobenyomas_no_fogak" value="none">
 
-        <div class="question-wrapper">
-            <div class="card z-depth-0">
-                <div class="card-content">
-                    <div class="card-title">7. Egy ismeretlen női vagy férfi arcról mi alapján dönti el, hogy szimpatikus-e? Mekkora hangsúlyt kapnak az alábbi vonások az első benyomás kialakítása során?</div>
-                    <div class="row">
-                        <div class="col m10 l6 offset-m1">
-                            <div class="center-align"><b>Női arc esetén</b></div>
-                            <table class="centered">
-                                <tr>
-                                    <td colspan="4">Egyáltalán nem</td>
-                                    <td colspan="3">Teljes mértékben</td>
-                                </tr>
-                                <tr>
-                                    <td>Orr</td>
-                                    <?php RadioRangeTableless("elsobenyomas_no_orr",7);?>
-                                </tr>
-                                <tr>
-                                    <td>Arccsont</td>
-                                    <?php RadioRangeTableless("elsobenyomas_no_arccsont",7);?>
-                                </tr>
-
-                                <tr>
-                                    <td>Homlok</td>
-                                    <?php RadioRangeTableless("elsobenyomasarc_no_homlok",7);?>
-                                </tr>
-                                <tr>
-                                    <td>Az arc egésze</td>
-                                    <?php RadioRangeTableless("elsobenyomasarc_no_egeszarc",7);?>
-                                </tr>
-                                <tr>
-                                    <td>Szemek</td>
-                                    <?php RadioRangeTableless("elsobenyomasarc_no_szemek",7);?>
-                                </tr>
-                                <tr>
-                                    <td>Fülek</td>
-                                    <?php RadioRangeTableless("elsobenyomasarc_no_fulek",7);?>
-                                </tr>
-                                <tr>
-                                    <td>Arcbőr</td>
-                                    <?php RadioRangeTableless("elsobenyomasarc_no_arcbor",7);?>
-                                </tr>
-                                <tr>
-                                    <td>Száj, ajkak</td>
-                                    <?php RadioRangeTableless("elsobenyomasarc_no_szaj",7);?>
-                                </tr>
-                                <tr>
-                                    <td>Haj</td>
-                                    <?php RadioRangeTableless("elsobenyomasarc_no_haj",7);?>
-                                </tr>
-                                <tr>
-                                    <td>Áll</td>
-                                    <?php RadioRangeTableless("elsobenyomasarc_no_all",7);?>
-                                </tr>
-                                <tr>
-                                    <td>Fogak</td>
-                                    <?php RadioRangeTableless("elsobenyomaarcs_no_fogak",7);?>
-                                </tr>
-                            </table>
-                        </div>
-                        <div class="col m10 l6 offset-m1">
-                            <div class="center-align"><b>Férfi arc esetén</b></div>
-                            <table class="centered">
-                                <tr>
-                                    <td colspan="4">Egyáltalán nem</td>
-                                    <td colspan="3">Teljes mértékben</td>
-                                </tr>
-                                <tr>
-                                    <td>Orr</td>
-                                    <?php RadioRangeTableless("elsobenyomas_ferfi_orr",7);?>
-                                </tr>
-                                <tr>
-                                    <td>Arccsont</td>
-                                    <?php RadioRangeTableless("elsobenyomas_ferfi_arccsont",7);?>
-                                </tr>
-
-                                <tr>
-                                    <td>Homlok</td>
-                                    <?php RadioRangeTableless("elsobenyomasarc_ferfi_homlok",7);?>
-                                </tr>
-                                <tr>
-                                    <td>Az arc egésze</td>
-                                    <?php RadioRangeTableless("elsobenyomasarc_ferfi_egeszarc",7);?>
-                                </tr>
-                                <tr>
-                                    <td>Szemek</td>
-                                    <?php RadioRangeTableless("elsobenyomasarc_ferfi_szemek",7);?>
-                                </tr>
-                                <tr>
-                                    <td>Fülek</td>
-                                    <?php RadioRangeTableless("elsobenyomasarc_ferfi_fulek",7);?>
-                                </tr>
-                                <tr>
-                                    <td>Arcbőr</td>
-                                    <?php RadioRangeTableless("elsobenyomasarc_ferfi_arcbor",7);?>
-                                </tr>
-                                <tr>
-                                    <td>Száj, ajkak</td>
-                                    <?php RadioRangeTableless("elsobenyomasarc_ferfi_szaj",7);?>
-                                </tr>
-                                <tr>
-                                    <td>Haj</td>
-                                    <?php RadioRangeTableless("elsobenyomasarc_ferfi_haj",7);?>
-                                </tr>
-                                <tr>
-                                    <td>Áll</td>
-                                    <?php RadioRangeTableless("elsobenyomasarc_ferfi_all",7);?>
-                                </tr>
-                                <tr>
-                                    <td>Fogak</td>
-                                    <?php RadioRangeTableless("elsobenyomaarcs_ferfi_fogak",7);?>
-                                </tr>
-                            </table>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <input type="hidden" name="elsobenyomas_ferfi_orr" id="elsobenyomas_ferfi_orr" value="none">
+        <input type="hidden" name="elsobenyomas_ferfi_arccson" id="elsobenyomas_ferfi_arccsont" value="none">
+        <input type="hidden" name="elsobenyomas_ferfi_homlok" id="elsobenyomas_ferfi_homlok" value="none">
+        <input type="hidden" name="elsobenyomas_ferfi_egeszarc" id="elsobenyomas_ferfi_egeszarc" value="none">
+        <input type="hidden" name="elsobenyomas_ferfi_szemek" id="elsobenyomas_ferfi_szemek" value="none">
+        <input type="hidden" name="elsobenyomas_ferfi_fulek" id="elsobenyomas_ferfi_fulek" value="none">
+        <input type="hidden" name="elsobenyomas_ferfi_arcbor" id="elsobenyomas_ferfi_arcbor" value="none">
+        <input type="hidden" name="elsobenyomas_ferfi_szaj" id="elsobenyomas_ferfi_szaj" value="none">
+        <input type="hidden" name="elsobenyomas_ferfi_haj" id="elsobenyomas_ferfi_haj" value="none">
+        <input type="hidden" name="elsobenyomas_ferfi_all" id="elsobenyomas_ferfi_all" value="none">
+        <input type="hidden" name="elsobenyomas_ferfi_fogak" id="elsobenyomas_ferfi_fogak" value="none">
 
 
         <div class="question-wrapper">
@@ -540,7 +444,7 @@ function RadioRange9($name,$max,$col=8){
                                     <tr>
                                         <td>Barátságtalan</td><?php RadioRange9("baratsagtalan",6, 12);?>
                                     </tr>
-                                    
+
                                     <tr>
                                         <td>Roma</td><?php RadioRange9("roma",6, 12);?>
                                     </tr>
@@ -550,14 +454,14 @@ function RadioRange9($name,$max,$col=8){
                                     <tr>
                                         <td>Veri a feleségét</td><?php RadioRange9("asszonyvero",6, 12);?>
                                     </tr>
-                                    
+
                                     <tr>
                                         <td>Háborús veterán</td><?php RadioRange9("veteran",6, 12);?>
                                     </tr>
                                     <tr>
                                         <td>Bűnöző</td><?php RadioRange9("bunozo",6, 12);?>
                                     </tr>
-                                    
+
                                     <tr>
                                         <td>Féllábú</td><?php RadioRange9("fellabu",6, 12);?>
                                     </tr>
@@ -612,7 +516,7 @@ function RadioRange9($name,$max,$col=8){
             </div>
         </div>
 
-        
+
          <div class="question-wrapper">
             <div class="card z-depth-0">
                 <div class="card-content">
