@@ -6,7 +6,7 @@
     <title>Demográfiai adatok</title>
     <?php include_once("services/head.php");?>
     <script src="services/adatok.js" type="text/javascript"></script>
-    <style href="services/adatok.css"></style>
+    <link rel="stylesheet" href="services/adatok.css"></link>
 </head>
 
 <body>
@@ -46,7 +46,7 @@
 
                         <div class="input-field col m2">
                             <input placeholder="Kor" type="number" name="kor">
-                            <label for="kor">Kor</label>
+                            <label for="kor">Írja a mezőbe korát</label>
                         </div>
                         <div class="col m4 s8 input-field">
                             
@@ -60,23 +60,25 @@
                             </select>
                         </div>
                         <div class="col m4 s8 input-field">
-                            <input placeholder="Település (állandó lakcím alapján)" type="text" name="telepules">
-                            <label for="telepules">Település</label>
+                            <input placeholder="Település" type="text" name="telepules">
+                            <label for="telepules">Írja a mezőbe a település nevét ahol él!</label>
                         </div>
 
                         <div class="col m6 s8 input-field">
                             <select name="csaladiallapot">
                                 <option value="" disabled selected>Családi állapot</option>
-                                <option value="hazas">Házasságban élek</option>          <option value="parkapcsolat">Párkapcsolatban élek</option>
+                                <option value="hazas">Házasságban élek</option>
+                                <option value="parkapcsolat">Párkapcsolatban élek</option>
                                 <option value="elvalt">Elváltam</option>
                                 <option value="egyedulallo">Egyedülálló vagyok</option>
                                 <option value="ozvegy">Özvegy vagyok</option>
                             </select>
                         </div>
                          <div class="col m6 s8 input-field">
-                            <select name="gyerek">
+                            <select name="gyerek" id="gyerek">
                                 <option value="" disabled selected>Gyermekeim száma</option>
-                                <option value="nincs">Nincs gyerekem </option>          <option value="1">1 </option>
+                                <option value="nincs">Nincs gyerekem </option>
+                                <option value="1">1 </option>
                                 <option value="2">2</option>
                                 <option value="3">3 </option>
                                 <option value="4">4 </option>
@@ -121,8 +123,8 @@
                         </select>
                     </div>
                     <div class="input-field col m6 s8">
-                        <input tpye="text" name="dolgozik_foglalkozas" placeholder="Foglalkozás, (szakmai) képzettség">
-                        <label for="dolgozik_foglalkozas">Foglalkozás</label>
+                        <input tpye="text" name="dolgozik_foglalkozas" placeholder="Foglalkozás">
+                        <label for="dolgozik_foglalkozas">Írja a mezőbe foglalkozását!</label>
                     </div>
                     <div class="input-field col m6 s8">
                         <select name="dolgozik_munkaterulet" id="munkaterulet">
