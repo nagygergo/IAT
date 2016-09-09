@@ -45,10 +45,6 @@
                 margin: 0 auto;
 
             }
-            #fittoscreen {
-                min-height: 400px;
-
-            }
             
             @media screen and (min-with: 600px) {
                 .qimg {
