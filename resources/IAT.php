@@ -49,9 +49,8 @@
             </div>
             <div class="row">
             <div class="col s12 m10 offset-m1 l8 offset-l2 ">
-            <div class="card-panel white z-depth-0">
-                 Ha az <b>E</b> és <b>I</b> billentyűk nem működnek, kattints az egérrel a téglalap belsejébe, és próbáld újra!<br>
-    Ha a piros <font color="red">X</font> megjelenik, üsd le a másik billentyűt, hogy a <font color="red">X</font> eltűnjön!
+            <div class="card-panel white z-depth-0 text-center">
+              Ha hibázott üsse le a helyes billentyűt a továbblépéshez.
             </div>
             </div>
             </div>
