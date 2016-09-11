@@ -13,60 +13,10 @@
             <?php echo "var lang='" .$lang."';"?>
         </script>
         <script type="text/javascript" src="services/IAT.js"></script>
-
-
-
-
         <script type="text/javascript">
             initialize();
             document.onkeypress = keyHandler;
         </script>
-        <style>
-            body {
-                background: #fafafa;
-                overflow: hidden;
-            }
-            
-            .IATitem {
-                display: none;
-            }
-
-            
-            #right_cat {
-                padding: 15px;
-            }
-            
-            #left_cat {
-                padding: 15px;
-            }
-            .qimg {
-                width: auto;
-                height: 300px;
-                margin: 0 auto;
-
-            }
-            
-            @media screen and (min-with: 600px) {
-                .qimg {
-                    width: 300px;
-                    height: auto;
-                    
-                }
-            }
-            @media screen and (min-with: 922px){
-                .qimg {
-                    width: 400px;
-                    height: auto;
-                    vertical-align: middle;
-                }
-            }
-            
-            #word {
-                padding-top: 120px;
-                padding-bottom: 120px;
-            }
-            
-        </style>
     </head>
 
     <body>
@@ -92,8 +42,7 @@
                                 <div id="exp_instruct" class="">
                                 </div>
                             </div>
-                            <h5>
-                            <div id="word" class="IATitem center-align valign-wrapper col s12 m10 offset-m1 l8 offset-l2 card-panel white z-depth-0" style="display: none"></div></h5>
+                            <h5 id="word" class="IATitem center-align valign-wrapper col s12 m10 offset-m1 l8 offset-l2 card-panel white z-depth-0" style="display: none"></h5>
                         </div>
                     </div>
                 </div>
